@@ -21,3 +21,5 @@ pre-trained language models generalize across domains and timeline in the task o
 of COVID-19. Our analyses suggest that cross-domain information transfers occur, yet there are still significant gaps. We
 propose semi-supervised learning as a way to bridge this gap, obtaining significantly better performance using unlabeled data
 from the target domain.
+
+Please find the dataset at https://drive.google.com/drive/folders/1F12O2niFStBVXA6plS-th5U66vfyY8-h?usp=sharing
