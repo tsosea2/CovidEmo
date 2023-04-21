@@ -185,9 +185,9 @@ def main(argv):
             train_dataloader = torch.utils.data.DataLoader(train_dataset, batch_size=FLAGS.batch_size, shuffle=True)
 
             validation_dataloader = give_dataloader(
-                'binary/' + emotion + '_dev.csv', FLAGS.batch_size, emotion, tokenizer)
+                'binary_splits/' + emotion + '_dev.csv', FLAGS.batch_size, emotion, tokenizer)
             test_dataloader = give_dataloader(
-                'binary/' + emotion + '_test.csv', FLAGS.batch_size, emotion, tokenizer)
+                'binary_splits/' + emotion + '_test.csv', FLAGS.batch_size, emotion, tokenizer)
 
 
             model = EmotionModel(FLAGS.model, num_classes=FLAGS.num_classes)
