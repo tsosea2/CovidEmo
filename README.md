@@ -28,6 +28,6 @@ The splits used in the paper can be found in `binary_plits` directory. To reprod
 python train.py --model <huggingface_model>
 ```
 
-Please use `digitalepidemiologylab/covid-twitter-bert` for the best `CTBERT` results from the paper. To reproduce the results using HurricaneEmo, download the dataset from https://github.com/shreydesai/hurricane, then place it in the same format (HurricaneEmo is not directly downloadable through HuggingFace). The training script will generate the results in a human-readable `json` file.
+Please use `digitalepidemiologylab/covid-twitter-bert` for the best `CTBERT` results from the paper. To reproduce the results using HurricaneEmo, download the dataset from https://github.com/shreydesai/hurricane, then place it in the same format (HurricaneEmo is not directly downloadable through HuggingFace so we cannot provide it here). The training script will generate the results in a human-readable `json` file.
 
 If you have any questions or issues, please create an `Issue` in this repository.
