@@ -22,4 +22,12 @@ of COVID-19. Our analyses suggest that cross-domain information transfers occur,
 propose semi-supervised learning as a way to bridge this gap, obtaining significantly better performance using unlabeled data
 from the target domain.
 
-Please find the dataset at https://drive.google.com/drive/folders/1F12O2niFStBVXA6plS-th5U66vfyY8-h?usp=sharing
+The splits used in the paper can be found in `binary_plits` directory. To reproduce the results in the paper with transfer from GoEmotions dataset, run:
+
+```
+python train.py --model <huggingface_model>
+```
+
+Please use `digitalepidemiologylab/covid-twitter-bert` for the best `CTBERT` results from the paper. To reproduce the results using HurricaneEmo, download the dataset from https://github.com/shreydesai/hurricane, then place it in the same format (HurricaneEmo is not directly downloadable through HuggingFace). 
+
+If you have any questions or issues, please create an `Issue` in this repository.
